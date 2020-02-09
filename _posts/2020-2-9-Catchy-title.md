@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Catchy Title
+title: Catchy title
 ---
 
 Tagline that will appear on the blog main page before clicking on the blog post
