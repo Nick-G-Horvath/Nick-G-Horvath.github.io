@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Insert catchy title for youth obesity project
+title: Catchy Title
 ---
 
 Overview of the project ...
