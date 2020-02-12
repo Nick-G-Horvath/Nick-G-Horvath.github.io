@@ -25,4 +25,6 @@ Tagline that will appear on the blog main page before clicking on the blog post
 
 # Question 4: Can we predict rates of high-BMI categories?
 
-![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q4_alg_performance.png)
+![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q4_alg_performance1.png)
+
+![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q4_alg_performance2.png)
