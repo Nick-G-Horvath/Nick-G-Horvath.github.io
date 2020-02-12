@@ -28,3 +28,5 @@ Tagline that will appear on the blog main page before clicking on the blog post
 ![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q4_alg_performance1.png)
 
 ![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q4_alg_performance2.png)
+
+![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q4_alg_performance.png)
