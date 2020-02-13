@@ -13,6 +13,8 @@ Tagline that will appear on the blog main page before clicking on the blog post
 
 ![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q1_obesity_by_group.png)
 
+![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q1_obesity_by_group_ss.png)
+
 # Question 2: How do rates of high-BMI categories vary over time and by location?
 
 ![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q2_obesity_by_location.png)
