@@ -11,11 +11,13 @@ Tagline that will appear on the blog main page before clicking on the blog post
 
 # Question 1: How do rates of high-BMI categories vary over time and by population?
 
-![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q1_obesity_by_group_tall.png)
+![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q1_obesity.png)
 
-![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q1_obesity_by_group.png)
+![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q1_obesity_by_grade.png)
 
-![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q1_obesity_by_group_ss.png)
+![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q1_obesity_by_gender.png)
+
+![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q1_obesity_by_race_ethnicity.png)
 
 # Question 2: How do rates of high-BMI categories vary over time and by location?
 
