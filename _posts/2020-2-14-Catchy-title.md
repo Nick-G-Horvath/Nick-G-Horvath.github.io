@@ -116,6 +116,8 @@ For both the percent of students obese and those overweight or obese, SVR, baggi
 We can also see that predictive performance is better across all algorithms for the overall data by location.
 This may be because there are simply more data samples, which allow for more training, more learning, and thus higher accuracy when generalizing to the test samples.
 
+# Summary
+
 In examining this data we have seen that the percents of high-school students in the United States that are obese and those that are overweight or obese have increased from 2001 to 2017, are higher in certain racial/ethnic groups, and are higher in males than females, although females are catching up.
 We have also learned that five states in the Rocky Mountains have the lowest rates of these high-BMI categories, and in those states students tend to watch less TV, eat more vegetables, and drink less soda than the national average.
 Those states also have more farmers markets per capita and more people living within half a mile of a park than the national average.
