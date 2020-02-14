@@ -9,7 +9,7 @@ Tagline that will appear on the blog main page before clicking on the blog post
 
 ![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Choices.jpg)
 
-Obesity is a condition defined by the [World Health Organization](https://www.who.int/topics/obesity/en/) as a "major risk factor for a number of chronic diseases, including diabetes, cardiovascular diseases and cancer" and a leading preventable cause of death in the United States and worldwide.
+Obesity is a condition defined by the [World Health Organization](https://www.who.int/topics/obesity/en/) as a *"major risk factor for a number of chronic diseases, including diabetes, cardiovascular diseases and cancer"* and a leading preventable cause of death in the United States and worldwide.
 It is also a condition that is seen increasingly in children.
 The [Youth Risk Behavior Surveillance System (YRBSS)](https://www.cdc.gov/healthyyouth/data/yrbs/overview.htm) was developed in 1990 by the Centers for Disease Control and Prevention (CDC) to study obesity and other health outcomes and associated risk factors among youth in the United States.
 The motivation for this project is to understand the rates of youth obesity over time and across locations and populations within the United States, and how they are correlated with certain nutritional, behavioral, institutional, and environmental risk factors.
@@ -65,11 +65,11 @@ It appears that geographic location may be strongly correlated with youth obesit
 
 ![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q3_factor_bar_chart.png)
 
-Low-BMI locations have percentages lower than the national average of high-school students that "watch 3 or more hours of television each school day", "consume vegetables less than 1 time daily", and "drink regular soda/pop at least one time per day".
-Meanwhile, high-BMI locations have percentages higher than the national average for these same categories, as well as for students "consuming fruit less than 1 time daily".
+Low-BMI locations have percentages lower than the national average of high-school students that *"watch 3 or more hours of television each school day"*, *"consume vegetables less than 1 time daily"*, and *"drink regular soda/pop at least one time per day"*.
+Meanwhile, high-BMI locations have percentages higher than the national average for these same categories, as well as for students *"consuming fruit less than 1 time daily"*.
 
 Low-BMI locations also have more farmers markets per capita and more people living within half a mile of a park than the national average, while high-BMI locations have fewer of these than the national average.
-Interestingly, none of the low-BMI locations during any of the years in this data have "state child care regulations that align with national standards for serving fruits" or likewise for vegetables.
+Interestingly, none of the low-BMI locations during any of the years in this data have *"state child care regulations that align with national standards for serving fruits"* or likewise for vegetables.
 High-BMI locations have these regulations for serving vegetables at rates higher than average, but not for fruits.
 Perhaps the high-BMI locations have attempted to address their rates of high-BMI categories among students through regulations, while the low-BMI locations have not seen the need.
 
@@ -134,8 +134,11 @@ The [YRBSS methodology documentation](https://www.cdc.gov/mmwr/pdf/rr/rr6201.pdf
 
 > *"Self-reported height, weight, and BMI calculated from these values were substantially reliable, but on average, students in the study overreported their height by 2.7 inches and underreported their weight by 3.5 pounds, which indicates that YRBSS probably underestimates the prevalence of overweight and obesity in adolescent populations."*
 
-In addition, the policy data comes from aggregating various state and local level reports under a common standard, for example that the "state has adopted some form of a Complete Streets policy".
+In addition, the policy data comes from aggregating various state and local level reports under a common standard, for example that the *"state has adopted some form of a Complete Streets policy"*.
 
 Finally, the factors considered here are far from the only ones that could be used to understand and predict rates of youth obesity.
-The documentation states that the "CDC decided that the system should focus almost exclusively on health-risk behaviors rather than on the determinants of these behaviors (e.g., knowledge, attitudes, beliefs, and skills), because there is a more direct connection between specific health-risk behaviors and specific health outcomes than between determinants of behaviors and health outcomes."
+The CDC decided that
+
+> *"the system should focus almost exclusively on health-risk behaviors rather than on the determinants of these behaviors (e.g., knowledge, attitudes, beliefs, and skills), because there is a more direct connection between specific health-risk behaviors and specific health outcomes than between determinants of behaviors and health outcomes."*
+
 However, research and analysis of the determining factors of risk behaviors is undoubtedly important in the effort to address this issue.
