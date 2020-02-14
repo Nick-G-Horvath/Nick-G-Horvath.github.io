@@ -3,17 +3,17 @@ layout: post
 title: Catchy title
 ---
 
-![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/AppleScale.jpg)
+![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/AppleScale.jpg) <!-- .element height="50%" width="50%" -->
 
 Tagline that will appear on the blog main page before clicking on the blog post
-
-![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Choices.jpg)
 
 Obesity is a condition defined by the [World Health Organization](https://www.who.int/topics/obesity/en/) as a *"major risk factor for a number of chronic diseases, including diabetes, cardiovascular diseases and cancer"* and a leading preventable cause of death in the United States and worldwide.
 It is also a condition that is seen increasingly in children.
 The [Youth Risk Behavior Surveillance System (YRBSS)](https://www.cdc.gov/healthyyouth/data/yrbs/overview.htm) was developed in 1990 by the Centers for Disease Control and Prevention (CDC) to study obesity and other health outcomes and associated risk factors among youth in the United States.
 The motivation for this project is to understand the rates of youth obesity over time and across locations and populations within the United States, and how they are correlated with certain nutritional, behavioral, institutional, and environmental risk factors.
 Two datasets from the CDC are considered: [Nutrition, Physical Activity, and Obesity - Youth Risk Behavior Surveillance System](https://chronicdata.cdc.gov/Nutrition-Physical-Activity-and-Obesity/Nutrition-Physical-Activity-and-Obesity-Youth-Risk/vba9-s8jp) contains information on the prevalence of youth obesity and associated risk factors gathered from the YRBSS, and [Nutrition, Physical Activity, and Obesity - Policy and Environmental Data](https://data.cdc.gov/Nutrition-Physical-Activity-and-Obesity/Nutrition-Physical-Activity-and-Obesity-Policy-and/k8w5-7ju6) focuses on state policy and environmental factors.
+
+![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Choices.jpg)
 
 When we're trying to take control of our health, it can be hard to know what really works.
 That was my goal with this project, to clear some of the fog surrounding healthy choices.
