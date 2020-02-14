@@ -15,7 +15,7 @@ Two datasets from the CDC are considered: [Nutrition, Physical Activity, and Obe
 
 ![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Choices.jpg)
 
-{% include image.html url="/images/posts/youth-obesity/Choices.jpg" description="Tempting, I know." %}
+{% include image.html url="/images/posts/youth-obesity/Choices.jpg" description="Choices..." %}
 
 When we're trying to take control of our health, it can be hard to know what really works.
 That was my goal with this project, to clear some of the fog surrounding healthy choices.
