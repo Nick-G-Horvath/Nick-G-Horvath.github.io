@@ -130,7 +130,10 @@ One important caveat is that BMI is not the same as body fat percentage, nor is 
 The metric has been criticized for its bias across height ranges (being underpredicted for shorter individuals and overpredicted for taller) and failure to account for body composition properties, such as a person's degree of musculature.
 
 Another is that much of the data considered here are from self-report surveys, including a student's height and weight, which are used to calculate BMI.
-The [YRBSS methodology documentation](https://www.cdc.gov/mmwr/pdf/rr/rr6201.pdf) mentions a CDC study on the reliability of these two question in particular, in which students' heights and weights were measured after having taken the questionnaire: "Self-reported height, weight, and BMI calculated from these values were substantially reliable, but on average, students in the study overreported their height by 2.7 inches and underreported their weight by 3.5 pounds, which indicates that YRBSS probably underestimates the prevalence of overweight and obesity in adolescent populations."
+The [YRBSS methodology documentation](https://www.cdc.gov/mmwr/pdf/rr/rr6201.pdf) mentions a CDC study on the reliability of these two question in particular, in which students' heights and weights were measured after having taken the questionnaire:
+
+> *"Self-reported height, weight, and BMI calculated from these values were substantially reliable, but on average, students in the study overreported their height by 2.7 inches and underreported their weight by 3.5 pounds, which indicates that YRBSS probably underestimates the prevalence of overweight and obesity in adolescent populations."*
+
 In addition, the policy data comes from aggregating various state and local level reports under a common standard, for example that the "state has adopted some form of a Complete Streets policy".
 
 Finally, the factors considered here are far from the only ones that could be used to understand and predict rates of youth obesity.
