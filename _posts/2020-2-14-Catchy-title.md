@@ -5,7 +5,7 @@ title: Catchy title
 
 What matters most in the fight against American child obesity?
 
-![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/AppleScale.jpg) <!-- .element height="50%" width="50%" -->
+![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/AppleScale.jpg)
 
 Obesity is a condition defined by the [World Health Organization](https://www.who.int/topics/obesity/en/) as a *"major risk factor for a number of chronic diseases, including diabetes, cardiovascular diseases and cancer"* and a leading preventable cause of death in the United States and worldwide.
 It is also a condition that is seen increasingly in children.
@@ -14,6 +14,8 @@ The motivation for this project is to understand the rates of youth obesity over
 Two datasets from the CDC are considered: [Nutrition, Physical Activity, and Obesity - Youth Risk Behavior Surveillance System](https://chronicdata.cdc.gov/Nutrition-Physical-Activity-and-Obesity/Nutrition-Physical-Activity-and-Obesity-Youth-Risk/vba9-s8jp) contains information on the prevalence of youth obesity and associated risk factors gathered from the YRBSS, and [Nutrition, Physical Activity, and Obesity - Policy and Environmental Data](https://data.cdc.gov/Nutrition-Physical-Activity-and-Obesity/Nutrition-Physical-Activity-and-Obesity-Policy-and/k8w5-7ju6) focuses on state policy and environmental factors.
 
 ![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Choices.jpg)
+
+{% include image.html url="/images/posts/youth-obesity/Choices.jpg" description="Tempting, I know." %}
 
 When we're trying to take control of our health, it can be hard to know what really works.
 That was my goal with this project, to clear some of the fog surrounding healthy choices.
