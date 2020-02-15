@@ -21,7 +21,7 @@ That was my goal with this project, to clear some of the fog surrounding healthy
 
 The first question I thought to explore was simply what the rates of American childhood obesity were, and how they had changed over time.
 The data from the CDC includes what percent of students are obese as well as what percent are overweight, as determined from BMI.
-For adults there are absolute thresholds, but for children they depend on age and gender.
+For adults these definitions are based on absolute thresholds, but for children they depend on age and gender.
 Obese is defined as being at or above 95th percentile for BMI relative to age and gender, while overweight is defined as at or above 85th percentile, but below 95th percentile.
 
 I wasn't satisfied with this definition of overweight as a health outcome.
