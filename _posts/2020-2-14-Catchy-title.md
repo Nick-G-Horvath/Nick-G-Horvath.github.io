@@ -15,32 +15,46 @@ Two datasets from the CDC are considered: [Nutrition, Physical Activity, and Obe
 
 {% include image.html url="/images/posts/youth-obesity/Choices.jpg" description="Choices..." %}
 
-When we're trying to take control of our health, it can be hard to know what really works.
+When we're trying to take control of our health, either as an individual or as a society, it can be hard to know what really works.
 That was my goal with this project, to clear some of the fog surrounding healthy choices.
 
-# Question 1: How do rates of high-BMI categories vary over time and by population?
+# Question 1: How do obesity rates vary over time and by population?
+
+The first question I thought to explore was simply what the rates of American childhood obesity were, and how they had changed over time.
+The data from the CDC includes what percent of students are obese as well as what pervcent are overweight, as determined from BMI.
+For adults there are absolute thresholds, but for children they depend on age and gender.
+Obese is defined as being at or above 95th percentile for BMI relative to age and gender, while overweight is defined as at or above 85th percentile, but below 95th percentile.
+
+I wasn't satisfied with this definition of overweight as a health outcome.
+If something were correlated with a decrease in overweightness, I wouldn't know if kids had fallen below 85th percentile for BMI, or had instead risen above the 95th percentile.
+Therefore I defined a new category: overweight or obese, including all students at or above the 85th percentile.
+With that out of the way, we can look at the rates over time:
 
 ![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q1_obesity.png)
 
-While the percentages of obese and overweight or obese students has declined at some points, overall they have increased with time.
-Will this be true also when we consider specific populations?
-It won't make much sense to compare obesity rates for population subgroups of different types, e.g. 12th graders and males.
-So let's do a comparison for each type of grouping: grade, gender, and race/ethnicity.
+With some exceptions, the percentages of obese students across the U.S. increases every time the data is collected, which is every two years.
+Overall it's risen from 10.5% in 2001 to 14.8% in 2017.
+The same is true for the percent that are overweight or obese, rising from 24.1% to 30.4%.
+I was actually initially surprised that these rates were not even higher, but I realized I was mistakenly thinking of the adult obesity rate in America, which is in fact much higher.
+
+In addition to the overall statistics, we can also see the rates by grade in school, gender, and race/ethnicity.
 
 ![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q1_obesity_by_grade.png)
 
-There isn't much that we can say about the grade subgroups.
-They all basically follow the overall trend, with some switching of places throughout the years.
+There isn't much notable about the data by grade; some of the trendlines cross and switch places throughout the years, but all basically follow the same trend as the overall data.
 
 ![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q1_obesity_by_gender.png)
 
-The breakdown by gender is much more stark: males have significantly higher percentages than females for all years.
-However, the female rates of high-BMI categories are catching up to the male rates.
-In fact, the increase in the percent of male students that are overweight or obese from 2001 to 2017 is negligible; the overall increase is almost entirely due to the female population.
+The breakdown by gender is much more stark: male students have significantly higher percentages for being obese and for being overweight or obese than female students, across all years.
+However, the female percentages are catching up.
+In fact, the male overweight or obese rate has been virtually flat from 2001 to 2017, meaning that girls are accounting for practically the entire overall increase.
 
 ![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q1_obesity_by_race_ethnicity.png)
 
-Looking at the race/ethnicity breakdown, some populations' rates are significantly variable over time.
+The obesity rates for some races/ethnicities are much more variable.
+Some populations
+
+breakdown, some populations' rates are significantly variable over time.
 The rates of high-BMI categories among the American Indian/Alaska Native population are the highest in 2001 but the second-lowest in 2017; meanwhile, those of the Hawaiian/Pacific Islander population are second-lowest in 2001 but highest in 2017.
 The order of the rates of the other five population groups are more stable.
 In most years, the Non-Hispanic Black and Hispanic populations have the highest rates out of these five groups, followed by 2 or more races, Non-Hispanic White, and Asian.
