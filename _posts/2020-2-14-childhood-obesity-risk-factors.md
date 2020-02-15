@@ -77,37 +77,36 @@ With the exception of 2013 none of these eleven locations' obesity rates ever cr
 
 The goal of this project is not just to see how obesity rates have changed, but what risk factors are associated with those changes.
 The YRBSS dataset includes a variety of other self-survey responses, including the percent of students:
-* "watching 3 or more hours of television each school day"
-* "achieving 1 hour or more of moderate-and/or vigorous-intensity physical activity daily"
-* "participating in daily physical education"
-* "consuming fruit less than 1 time daily"
-* "consuming vegetables less than 1 time daily"
-* "drinking regular soda/pop at least one time per day" ("regular" meaning not diet soda)
+* watching 3 or more hours of television each school day
+* achieving 1 hour or more of moderate-and/or vigorous-intensity physical activity daily
+* participating in daily physical education
+* consuming fruit less than 1 time daily
+* consuming vegetables less than 1 time daily
+* drinking regular soda/pop at least one time per day ("regular" meaning not diet soda)
 
 I also made use of another CDC dataset on state policy and environmental factors over time, from which I identified the following potentially relevant factors:
-* "Number of farmers markets per 100,000 residents"
-* "Number of food hubs in each state"
-* "Percent of U.S. population living within half mile of a park"
-* "Percent of farmers markets that accept WIC Farmers Market Nutrition Program coupons"
-* "State child care regulations align with national standards for serving fruits" (Yes or No)
-* "State child care regulations align with national standards for serving vegetables" (Yes or No)
-* "State has adopted some form of a Complete Streets policy" (Yes or No)
+* Number of farmers markets per 100,000 residents
+* Number of food hubs in each state
+* Percent of U.S. population living within half mile of a park
+* Percent of farmers markets that accept WIC Farmers Market Nutrition Program coupons
+* State child care regulations align with national standards for serving fruits (Yes or No)
+* State child care regulations align with national standards for serving vegetables (Yes or No)
+* State has adopted some form of a Complete Streets policy (Yes or No)
+
+For each of these factors I compared the average of the least obese locations and of the most obese locations to the national average.
 
 ![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q3_factor_bar_chart.png)
 
-Low-BMI locations have percentages lower than the national average of high-school students that *"watch 3 or more hours of television each school day"*, *"consume vegetables less than 1 time daily"*, and *"drink regular soda/pop at least one time per day"*.
-Meanwhile, high-BMI locations have percentages higher than the national average for these same categories, as well as for students *"consuming fruit less than 1 time daily"*.
+Certain trends emerge as significant, where the low-BMI states are on one side of the national average and the high-BMI on the other: TV watching, vegetable consumption, soda consumption, farmers markets, living near a park, and regulations on serving vegetables.
+Fruit consumption almost falls under this designation too.
 
-Low-BMI locations also have more farmers markets per capita and more people living within half a mile of a park than the national average, while high-BMI locations have fewer of these than the national average.
-Interestingly, none of the low-BMI locations during any of the years in this data have *"state child care regulations that align with national standards for serving fruits"* or likewise for vegetables.
-High-BMI locations have these regulations for serving vegetables at rates higher than average, but not for fruits.
-Perhaps the high-BMI locations have attempted to address their rates of high-BMI categories among students through regulations, while the low-BMI locations have not seen the need.
+All but one of these trends are in the direction that we might expect, e.g. the high-BMI locations watch more TV than the national average while the low-BMI locations watch less.
+The exception is the vegetable regulations, where the group more likely to have them in place (and aligned with national standards) is the one with higher obesity rates.
+We certainly can't infer causality from this analysis, but we might speculate that the policy effort has come in response to increased obesity rates rather than the other way around.
+Likewise, we don't know if a prevalence of farmers markets and parks has any effect on lowering child obesity or is simply a feature of the cultural and economic environment in certain areas of the country.
 
-Comparing these factors among three groups of locations is not the only way to consider their correlation with the prevalence of high-BMI categories.
-We can calculate the Pearson correlation coefficient between all columns in our data, and visualize the correlations between the high-BMI metrics and associated factors.
-
-Certain trends emerge as significant: TV, vegetables, soda, farmers markets, and living near a park.
-For these factors, the low-BMI states are on one side of the national average, and the high-BMI states and territories are on the other.
+To validate these findings we can use a more quantitative measure: the correlation coefficient between each factor and the obesity rates.
+Here are the coefficients color coded by value, where 1 represents the greatest possible *positive* correlation (increased prevalence of the factor correlates with *increased* obesity), -1 the greatest possible *negative* correlation (increased prevalence of the factor correlates with *decreased* obesity), and 0 signifies no correlation.
 
 ![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q3_factor_heatmap.png)
 
@@ -115,10 +114,6 @@ The relative importance of factors mostly matches what we saw in the bar chart.
 Watching TV, drinking soda, eating fruits less often, and especially eating vegetables less often are positively correlated with higher rates of high-BMI across the statewide data, grade-grouped data, gender-grouped data, and race/ethnicity-grouped data.
 Living near a park is negatively correlated with higher rates of high-BMI across these data groups.
 However, the numbers of farmers markets per capita and the prevalence of vegetable regulations do not appear significant from this analysis, in contrast to the bar chart.
-
-Also, it is important to remember that for the policy/environmental factors, we do not have population-specific data.
-In the correlation across location and race/ethnicity for example, we are looking at the correlation between obesity rates in different racial/ethnic groups across many locations versus the percent of all students in that location, regardless of racial/ethnic group, living within half a mile of a park.
-With more detailed data we would be able to further refine this analysis and consider more specific questions.
 
 # Question 4: Can we predict obesity rates?
 
