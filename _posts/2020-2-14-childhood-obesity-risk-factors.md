@@ -127,11 +127,29 @@ Support vector regression (SVR) allows for non-linear relationships, and the fin
 
 ![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q4_alg_performance.png)
 
-For both the percent of students obese and those overweight or obese, SVR, bagging, and random forest outperform the other algorithms.
-We can also see that predictive performance is better across all algorithms for the overall data by location.
+Some of the more complex algorithms outperform the simpler ones, but this is not a consistent trend.
+We can also see that predictive performance is better across all algorithms for the overall data than for the subgroups.
 This may be because there are simply more data samples, which allow for more training, more learning, and thus higher accuracy when generalizing to the test samples.
 
+These models were not allowed to predict based on year, state, grade, gender, or race/ethnicity, but 61% and 63% accuracy are still not really what we want for a useful predictive model.
+We could increase model accuracy by training on this data, but instead let's supply more general information: the geographic region of the country.
+We can use the four regions of the country defined by the [U.S. Census Bureau](https://www2.census.gov/geo/pdfs/maps-data/maps/reference/us_regdiv.pdf): Northeast, Midwest, South, and West.
+Territories are not classified in a region, so we will group them in a separate class.
+
+![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q4_alg_performance_region.png)
+
+
+
+![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q4_alg_performance_division.png)
+
+
+
 # Summary
+Just by considering the associated risk factors (not the year, state, grade, gender, or race/ethnicity), we can achieve a little above 60% accuracy.
+By supplying the geographic region (but still not the exact state) we get close to 70%.
+
+In data science it's important to remember that the quality of the data is more important than the choice of algorithm.
+Linear regression is often a good place to start beacuse it lets us know if a more complex model is even necessary.
 
 In examining this data we have seen that the percents of high-school students in the United States that are obese and those that are overweight or obese have increased from 2001 to 2017, are higher in certain racial/ethnic groups, and are higher in males than females, although females are catching up.
 We have also learned that five states in the Rocky Mountains have the lowest rates of these high-BMI categories, and in those states students tend to watch less TV, eat more vegetables, and drink less soda than the national average.
