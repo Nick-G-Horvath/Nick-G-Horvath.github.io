@@ -35,7 +35,6 @@ With that out of the way, we can look at the rates over time:
 With some exceptions, the percentages of obese students across the U.S. increases every time the data is collected, which is every two years.
 Overall it's risen from 10.5% in 2001 to 14.8% in 2017.
 The same is true for the percent that are overweight or obese, rising from 24.1% to 30.4%.
-I was actually initially surprised that these rates were not even higher, but I realized I was mistakenly thinking of the adult obesity rate in America, which is in fact much higher.
 
 In addition to the overall statistics, we can also see the rates by grade in school, gender, and race/ethnicity.
 
