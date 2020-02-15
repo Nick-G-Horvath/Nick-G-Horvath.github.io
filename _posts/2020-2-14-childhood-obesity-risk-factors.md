@@ -117,23 +117,13 @@ However, the number of farmers markets and the prevalence of vegetable regulatio
 
 # Question 4: Can we predict obesity rates?
 
-The correlation calculation we performed quantifies the degree to which there is a linear relationship between one of our high-BMI metrics of interest and another factor in the data.
-However, it does not take into account the other factors.
-To do that we can train a linear regression model on the data and see what factors are most important for model performance.
-Let's start with the data across all locations and drop the columns we don't want to be in the model.
-
-![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q4_lm_coef.png)
-
-Negative values indicate that the model predicts lower obesity when the factor value is high, while for positive coefficients it predicts higher rates.
-The absolute value of the coefficient represents the degree of influence of that factor on model predictions.
-Currently **VeggieReg** and **CompleteStreets** are being considered most heavily by the model.
-From the bar chart we saw that these factors, especially **VeggieReg**, seemed to be correlated with geographic location.
-
-This function perfoms the steps of data preparation, model building, training, prediction, and scoring for five different choices of algorithm: linear regression, ridge regression, support vector regression (SVR), bagging, random forest, and AdaBoost.
-Ridge regression is a regularization technique that performs linear regression but with a penalties imposed on coefficients being too high.
-SVR is a regression extension of support vector machines, originally used in classification problems.
-Bagging, random forest, and AdaBoost are all ensemble techniques, in which multiple models are constructed and their predictions are integrated by some means into a single prediction.
-Let's build another function to plot the accuracy of these models on various subsets of the data.
+Finally, we can try to predict obesity rates based on the factors we believe to be relevant.
+Since what we want to predict is a number (percent students obese), the type of algorithm we need is regression.
+For the overall data and the subpopulations, I constructed a variety of regression models, used a portion of the data to train them to predict obesity rates, and tested their accuracy on the remaining data.
+From left to right the algorithms increase in complexity, roughly speaking.
+Linear regression is similar to the correlation analysis above, except for multiple factors at once.
+Ridge regression is linear regression plus a penalty imposed on large coefficients.
+Support vector regression (SVR) allows for non-linear relationships, and the final three algorithms are ensemble methods, where multiple models' predictions are combined into one (hopefully) better prediction.
 
 ![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q4_alg_performance.png)
 
