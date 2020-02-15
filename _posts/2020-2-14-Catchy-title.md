@@ -5,7 +5,7 @@ title: Catchy title
 
 What matters most in the fight against American child obesity?
 
-{% include image.html url="/images/posts/youth-obesity/AppleScale.jpg" description="" %}
+{% include image.html url="/images/posts/youth-obesity/AppleScale.jpg" description=" " %}
 
 Obesity is a condition defined by the [World Health Organization](https://www.who.int/topics/obesity/en/) as a *"major risk factor for a number of chronic diseases, including diabetes, cardiovascular diseases and cancer"* and a leading preventable cause of death in the United States and worldwide.
 It is also a condition that is seen increasingly in children.
