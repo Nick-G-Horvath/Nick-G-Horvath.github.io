@@ -1,6 +1,6 @@
 ---
 layout: post
-title: childhood obesity risk factors
+title: Childhood obesity risk factors
 subtitle: What matters most in the fight against American child obesity?
 ---
 
