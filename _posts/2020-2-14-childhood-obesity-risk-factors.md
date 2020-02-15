@@ -20,14 +20,14 @@ That was my goal with this project, to clear some of the fog surrounding healthy
 # Question 1: How do obesity rates vary over time and by population?
 
 The first question I thought to explore was simply what the rates of American childhood obesity were, and how they had changed over time.
-The data from the CDC includes what percent of students are obese as well as what pervcent are overweight, as determined from BMI.
+The data from the CDC includes what percent of students are obese as well as what percent are overweight, as determined from BMI.
 For adults there are absolute thresholds, but for children they depend on age and gender.
 Obese is defined as being at or above 95th percentile for BMI relative to age and gender, while overweight is defined as at or above 85th percentile, but below 95th percentile.
 
 I wasn't satisfied with this definition of overweight as a health outcome.
 If something were correlated with a decrease in overweightness, I wouldn't know if kids had fallen below 85th percentile for BMI, or had instead risen above the 95th percentile.
 Therefore I defined a new category: overweight or obese, including all students at or above the 85th percentile.
-With that out of the way, we can look at the rates over time:
+With that out of the way, we can look at the rates over time.
 
 ![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q1_obesity.png)
 
@@ -58,14 +58,19 @@ The rates of both of the high-BMI categories for the Asian population are the lo
 
 # Question 2: How do rates of high-BMI categories vary over time and by location?
 
+Part of the function of the CDC's Youth Risk Behavior Surveillance System is to integrate state and local surveys in one place under a common standard.
+Thus, we can look at obesity rates over time as a function of location.
+There are 51 locations (47 states, 3 territories, and DC) for which we have data in addition to the national average.
+Rather than trying to plot all at once, here are the rates for the top and bottom 5 locations.
+
 ![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q2_obesity_by_location.png)
 
-The five locations with below-average rates of high-BMI categories were Colorado, Idaho, Montana, Utah, and Wyoming, all located in the Rocky Mountains.
-The five with above-average rates were Guam, Kentucky, Mississippi, Tennessee, and either Arkansas (obesity) or Louisiana (overweightness or obesity).
+The same five states were lowest in terms of percent of students obese and those overweight or obese, and they're all clustered together in the Rocky Mountains.
+The locations with the most obese and the most overweight or obese students are almost the same: Guam tops both lists, and Kentucky, Mississippi, Tennessee, and either Arkansas (obesity) or Louisiana (overweightness or obesity) round out the top five.
 Besides Guam, these are all located along the Mississippi River.
-There is a fair amount of switching places between the locations in each group, but no switching between the groups.
-In fact, with the exception of 2013, none of these states ever cross the U.S. average.
-It appears that geographic location may be strongly correlated with youth obesity.
+While I was not surprised to see the least obese states in the West and the most obese in the South, I did not expect the geographic clustering to be this strong.
+Also, these groups' separation from the national average and each other is consistent.
+With the exception of 2013 none of these eleven locations' obesity rates ever cross the U.S. average.
 
 # Question 3: What nutritional, behavioral, institutional, and environmental factors are associated with rates of high-BMI categories?
 
