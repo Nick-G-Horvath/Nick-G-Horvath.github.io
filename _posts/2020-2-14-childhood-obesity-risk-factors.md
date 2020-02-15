@@ -68,6 +68,7 @@ Rather than trying to plot all at once, here are the rates for the top and botto
 The same five states were lowest in terms of percent of students obese and those overweight or obese, and they're all clustered together in the Rocky Mountains.
 The locations with the most obese and the most overweight or obese students are almost the same: Guam tops both lists, and Kentucky, Mississippi, Tennessee, and either Arkansas (obesity) or Louisiana (overweightness or obesity) round out the top five.
 Besides Guam, these are all located along the Mississippi River.
+
 While I was not surprised to see the least obese states in the West and the most obese in the South, I did not expect the geographic clustering to be this strong.
 Also, these groups' separation from the national average and each other is consistent.
 With the exception of 2013 none of these eleven locations' obesity rates ever cross the U.S. average.
@@ -75,7 +76,22 @@ With the exception of 2013 none of these eleven locations' obesity rates ever cr
 # Question 3: What nutritional, behavioral, institutional, and environmental factors are associated with obesity rates?
 
 The goal of this project is not just to see how obesity rates have changed, but what risk factors are associated with those changes.
-The YRBSS dataset includes a variety of other self-survey responses, including the percent of students "watching 3 or more hours of television each school day", "achiev[ing] 1 hour or more of moderate-and/or vigorous-intensity physical activity daily", "consuming fruit less than 1 time daily", "consuming vegetables less than 1 time daily", "drank regular soda/pop at least one time per day", and "participating in daily physical education".
+The YRBSS dataset includes a variety of other self-survey responses, including the percent of students:
+* "watching 3 or more hours of television each school day"
+* "achieving 1 hour or more of moderate-and/or vigorous-intensity physical activity daily"
+* "participating in daily physical education"
+* "consuming fruit less than 1 time daily"
+* "consuming vegetables less than 1 time daily"
+* "drinking regular soda/pop at least one time per day" ("regular" meaning not diet soda)
+
+I also made use of another CDC dataset on state policy and environmental factors over time, from which I identified the following potentially relevant factors:
+* "Number of farmers markets per 100,000 residents"
+* "Number of food hubs in each state"
+* "Percent of U.S. population living within half mile of a park"
+* "Percent of farmers markets that accept WIC Farmers Market Nutrition Program coupons"
+* "State child care regulations align with national standards for serving fruits" (Yes or No)
+* "State child care regulations align with national standards for serving vegetables" (Yes or No)
+* "State has adopted some form of a Complete Streets policy" (Yes or No)
 
 ![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q3_factor_bar_chart.png)
 
