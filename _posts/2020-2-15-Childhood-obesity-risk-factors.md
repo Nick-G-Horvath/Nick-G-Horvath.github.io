@@ -154,7 +154,9 @@ Let's get a bit more precise with the geography by training on the region subdiv
 ![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q4_alg_performance_division.png)
 
 Now we're getting close to 70% accuracy in predicting our two health outcomes.
-It seems that while the associated risk factors we identified are somewhat correlated with obesity rates, they aren't sufficient for predicting them with high accuracy.
+We could tune these algorithms' parameters to try to improve performance further, or even explore more complex algorithms, but we may run into model overtraining or simply diminishing returns of our effort.
+It's important to remember that the quality of the data is more important than the choice of algorithm.
+It seems that while the associated risk factors we identified are somewhat correlated with obesity rates, they alone aren't sufficient for predicting them with high accuracy.
 
 # Summary
 Just by considering the associated risk factors (not the year, state, grade, gender, or race/ethnicity), we can achieve a little above 60% accuracy.
