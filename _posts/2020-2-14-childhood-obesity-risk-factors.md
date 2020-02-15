@@ -107,13 +107,13 @@ Likewise, we don't know if a prevalence of farmers markets and parks has any eff
 
 To validate these findings we can use a more quantitative measure: the correlation coefficient between each factor and the obesity rates.
 Here are the coefficients color coded by value, where 1 represents the greatest possible *positive* correlation (increased prevalence of the factor correlates with *increased* obesity), -1 the greatest possible *negative* correlation (increased prevalence of the factor correlates with *decreased* obesity), and 0 signifies no correlation.
+The correlations are computed on the overall data as well as by grade, gender, and race/ethnicity.
 
 ![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q3_factor_heatmap.png)
 
-The relative importance of factors mostly matches what we saw in the bar chart.
-Watching TV, drinking soda, eating fruits less often, and especially eating vegetables less often are positively correlated with higher rates of high-BMI across the statewide data, grade-grouped data, gender-grouped data, and race/ethnicity-grouped data.
-Living near a park is negatively correlated with higher rates of high-BMI across these data groups.
-However, the numbers of farmers markets per capita and the prevalence of vegetable regulations do not appear significant from this analysis, in contrast to the bar chart.
+The relative importance of factors mostly matches what we see in the bar chart.
+Watching TV, drinking soda, eating fruits less often, and especially eating vegetables less often correlate with higher obesity rates, while a high proportion of residents living near a park correlates with lower rates.
+However, the number of farmers markets and the prevalence of vegetable regulations don't appear significant from this analysis.
 
 # Question 4: Can we predict obesity rates?
 
