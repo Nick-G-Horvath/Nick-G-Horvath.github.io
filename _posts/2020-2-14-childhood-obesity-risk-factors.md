@@ -56,7 +56,7 @@ Meanwhile, the Hawaiian/Pacific Islander rates are the reverse, going from secon
 Apart from these two groups, the Non-Hispanic Black and Hispanic students generally have the highest obesity rates, followed by 2 or more races, Non-Hispanic White, and Asian.
 The rates of both of the high-BMI categories for the Asian population are the lowest every year.
 
-# Question 2: How do rates of high-BMI categories vary over time and by location?
+# Question 2: How do obesity rates vary over time and by location?
 
 Part of the function of the CDC's Youth Risk Behavior Surveillance System is to integrate state and local surveys in one place under a common standard.
 Thus, we can look at obesity rates over time as a function of location.
@@ -72,7 +72,10 @@ While I was not surprised to see the least obese states in the West and the most
 Also, these groups' separation from the national average and each other is consistent.
 With the exception of 2013 none of these eleven locations' obesity rates ever cross the U.S. average.
 
-# Question 3: What nutritional, behavioral, institutional, and environmental factors are associated with rates of high-BMI categories?
+# Question 3: What nutritional, behavioral, institutional, and environmental factors are associated with obesity rates?
+
+The goal of this project is not just to see how obesity rates have changed, but what risk factors are associated with those changes.
+The YRBSS dataset includes a variety of other self-survey responses, including the percent of students "watching 3 or more hours of television each school day", "achiev[ing] 1 hour or more of moderate-and/or vigorous-intensity physical activity daily", "consuming fruit less than 1 time daily", "consuming vegetables less than 1 time daily", "drank regular soda/pop at least one time per day", and "participating in daily physical education".
 
 ![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q3_factor_bar_chart.png)
 
@@ -101,7 +104,7 @@ Also, it is important to remember that for the policy/environmental factors, we 
 In the correlation across location and race/ethnicity for example, we are looking at the correlation between obesity rates in different racial/ethnic groups across many locations versus the percent of all students in that location, regardless of racial/ethnic group, living within half a mile of a park.
 With more detailed data we would be able to further refine this analysis and consider more specific questions.
 
-# Question 4: Can we predict rates of high-BMI categories?
+# Question 4: Can we predict obesity rates?
 
 The correlation calculation we performed quantifies the degree to which there is a linear relationship between one of our high-BMI metrics of interest and another factor in the data.
 However, it does not take into account the other factors.
