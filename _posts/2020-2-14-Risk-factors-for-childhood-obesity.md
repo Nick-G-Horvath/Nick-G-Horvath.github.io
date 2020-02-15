@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Catchy title
+title: Risk factors for childhood obesity
 ---
 
 What matters most in the fight against American child obesity?
