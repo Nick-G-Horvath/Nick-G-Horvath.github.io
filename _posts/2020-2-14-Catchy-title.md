@@ -51,17 +51,11 @@ In fact, the male overweight or obese rate has been virtually flat from 2001 to 
 ![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q1_obesity_by_race_ethnicity.png)
 
 The obesity rates for some races/ethnicities are much more variable.
-Some populations
-
-breakdown, some populations' rates are significantly variable over time.
-The rates of high-BMI categories among the American Indian/Alaska Native population are the highest in 2001 but the second-lowest in 2017; meanwhile, those of the Hawaiian/Pacific Islander population are second-lowest in 2001 but highest in 2017.
-The order of the rates of the other five population groups are more stable.
-In most years, the Non-Hispanic Black and Hispanic populations have the highest rates out of these five groups, followed by 2 or more races, Non-Hispanic White, and Asian.
+Here the size of the points is proportional to the number of students in each population.
+For example, the American Indian/Alaska Native rates are the highest in 2001 but the second-lowest in 2017.
+Meanwhile, the Hawaiian/Pacific Islander rates are the reverse, going from second-lowest in 2001 to highest in 2017.
+Apart from these two groups, the Non-Hispanic Black and Hispanic students generally have the highest obesity rates, followed by 2 or more races, Non-Hispanic White, and Asian.
 The rates of both of the high-BMI categories for the Asian population are the lowest every year.
-
-One thing you might notice is that the overall obesity rate peaks in 2013, yet in the race/ethnicity breakdown several populations are at or near their lowest points in that year.
-This is because there are simply so many more students in certain populations than others, specifically Non-Hispanic White, whose obesity rate peaked in 2013.
-This is why we plotted the data such that larger points correspond to larger populations.
 
 # Question 2: How do rates of high-BMI categories vary over time and by location?
 
