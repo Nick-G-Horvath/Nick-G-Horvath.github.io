@@ -13,6 +13,7 @@ The motivation for this project is to understand the rates of youth obesity over
 Two datasets from the CDC are considered: [Nutrition, Physical Activity, and Obesity - Youth Risk Behavior Surveillance System](https://chronicdata.cdc.gov/Nutrition-Physical-Activity-and-Obesity/Nutrition-Physical-Activity-and-Obesity-Youth-Risk/vba9-s8jp) contains information on the prevalence of youth obesity and associated risk factors gathered from the YRBSS, and [Nutrition, Physical Activity, and Obesity - Policy and Environmental Data](https://data.cdc.gov/Nutrition-Physical-Activity-and-Obesity/Nutrition-Physical-Activity-and-Obesity-Policy-and/k8w5-7ju6) focuses on state policy and environmental factors.
 
 {% include image.html url="/images/posts/youth-obesity/Choices.jpg" description="Choices..." %}
+<br>
 
 When we're trying to take control of our health, either as an individual or as a society, it can be hard to know what really works.
 That was my goal with this project, to clear some of the fog surrounding healthy choices.
@@ -180,6 +181,7 @@ The metric has been criticized for its bias across height ranges (taller people 
 For an example of both of these limitations, this man is 6' 5" and weighs 260 pounds, giving him a BMI of 30.8 and making him "obese":
 
 {% include image.html url="/images/posts/youth-obesity/DwayneJohnson.jpg" description="Dwayne Johnson" %}
+<br>
 
 Another is that much of the data considered here are from self-report surveys, including a student's height and weight, which are used to calculate BMI.
 The [YRBSS methodology documentation](https://www.cdc.gov/mmwr/pdf/rr/rr6201.pdf) mentions a CDC study on the reliability of these two question in particular, in which students' heights and weights were measured after having taken the questionnaire:
@@ -189,8 +191,4 @@ The [YRBSS methodology documentation](https://www.cdc.gov/mmwr/pdf/rr/rr6201.pdf
 In addition, the policy data comes from aggregating various state and local level reports under a common standard, for example that the *"state has adopted some form of a Complete Streets policy"*.
 
 Finally, the factors considered here are far from the only ones that could be used to understand and predict rates of youth obesity.
-The CDC decided that
-
-> *"the system should focus almost exclusively on health-risk behaviors rather than on the determinants of these behaviors (e.g., knowledge, attitudes, beliefs, and skills), because there is a more direct connection between specific health-risk behaviors and specific health outcomes than between determinants of behaviors and health outcomes."*
-
-However, research and analysis of the determining factors of risk behaviors is undoubtedly important in the effort to address this issue.
+Notable omissions are the beliefs, education level, and socioeconomic status of one's family and community.
