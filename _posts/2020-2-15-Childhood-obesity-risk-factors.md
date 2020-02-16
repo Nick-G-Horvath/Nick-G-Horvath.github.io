@@ -4,7 +4,7 @@ title: Childhood obesity risk factors
 subtitle: What matters most in the fight against American child obesity?
 ---
 
-{% include image.html url="/images/posts/youth-obesity/AppleScale.jpg" description=" " %}
+{% include image.html url="/images/posts/youth-obesity/AppleScale.jpg" description="" %}
 
 Obesity is a condition defined by the [World Health Organization](https://www.who.int/topics/obesity/en/) as a *"major risk factor for a number of chronic diseases, including diabetes, cardiovascular diseases and cancer"* and a leading preventable cause of death in the United States and worldwide.
 It is also a condition that is seen increasingly in children.
@@ -30,7 +30,7 @@ If something were correlated with a decrease in overweightness, I wouldn't know 
 Therefore I defined a new category: overweight or obese, including all students at or above the 85th percentile.
 With that out of the way, we can look at the rates over time.
 
-![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q1_obesity.png)
+{% include image.html url="/images/posts/youth-obesity/Q1_obesity.png" description="" %}
 
 With some exceptions, the percentages of obese students across the U.S. increases every time the data is collected, which is every two years.
 Overall it's risen from 10.5% in 2001 to 14.8% in 2017.
@@ -38,17 +38,17 @@ The same is true for the percent that are overweight or obese, rising from 24.1%
 
 In addition to the overall statistics, we can also see the rates by grade in school, gender, and race/ethnicity.
 
-![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q1_obesity_by_grade.png)
+{% include image.html url="/images/posts/youth-obesity/Q1_obesity_by_grade.png" description="" %}
 
 There isn't much notable about the data by grade; some of the trendlines cross and switch places throughout the years, but all basically follow the same trend as the overall data.
 
-![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q1_obesity_by_gender.png)
+{% include image.html url="/images/posts/youth-obesity/Q1_obesity_by_gender.png" description="" %}
 
 The breakdown by gender is much more stark: male students have significantly higher percentages for being obese and for being overweight or obese than female students, across all years.
 However, the female percentages are catching up.
 In fact, the male overweight or obese rate has been virtually flat from 2001 to 2017, meaning that girls are accounting for practically the entire overall increase.
 
-![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q1_obesity_by_race_ethnicity.png)
+{% include image.html url="/images/posts/youth-obesity/Q1_obesity_by_race_ethnicity.png" description="" %}
 
 The obesity rates for some races/ethnicities are much more variable.
 Here the size of the points is proportional to the number of students in each population.
@@ -64,7 +64,7 @@ Thus, we can look at obesity rates over time as a function of location.
 There are 51 locations (47 states, 3 territories, and DC) for which we have data in addition to the national average.
 Rather than trying to plot all at once, here are the rates for the top and bottom 5 locations.
 
-![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q2_obesity_by_location.png)
+{% include image.html url="/images/posts/youth-obesity/Q1_obesity_by_location.png" description="" %}
 
 The same five states were lowest in terms of percent of students obese and those overweight or obese, and they're all clustered together in the Rocky Mountains.
 The locations with the most obese and the most overweight or obese students are almost the same: Guam tops both lists, and Kentucky, Mississippi, Tennessee, and either Arkansas (obesity) or Louisiana (overweightness or obesity) round out the top five.
@@ -96,7 +96,7 @@ I also made use of another CDC dataset on state policy and environmental factors
 
 For each of these factors I compared the average of the least obese locations and of the most obese locations to the national average.
 
-![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q3_factor_bar_chart.png)
+{% include image.html url="/images/posts/youth-obesity/Q3_factor_bar_chart.png" description="" %}
 
 Certain trends emerge as significant, where the low-BMI states are on one side of the national average and the high-BMI on the other: TV watching, vegetable consumption, soda consumption, farmers markets, living near a park, and regulations on serving vegetables.
 Fruit consumption almost falls under this designation too.
@@ -110,7 +110,7 @@ To validate these findings we can use a more quantitative measure: the correlati
 Here are the coefficients color coded by value, where 1 represents the greatest possible *positive* correlation (increased prevalence of the factor correlates with *increased* obesity), -1 the greatest possible *negative* correlation (increased prevalence of the factor correlates with *decreased* obesity), and 0 signifies no correlation.
 The correlations are computed on the overall data as well as by grade, gender, and race/ethnicity.
 
-![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q3_factor_heatmap.png)
+{% include image.html url="/images/posts/youth-obesity/Q3_factor_heatmap.png" description="" %}
 
 The relative importance of factors mostly matches what we see in the bar chart.
 Watching TV, drinking soda, eating fruits less often, and especially eating vegetables less often correlate with higher obesity rates, while a high proportion of residents living near a park correlates with lower rates.
@@ -126,7 +126,7 @@ Linear regression is similar to the correlation analysis above, except for multi
 Ridge regression is linear regression plus a penalty imposed on large coefficients.
 Support vector regression (SVR) allows for non-linear relationships, and the final three algorithms are ensemble methods, where multiple models' predictions are combined into one (hopefully) better prediction.
 
-![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q4_alg_performance.png)
+{% include image.html url="/images/posts/youth-obesity/Q4_alg_performance.png" description="" %}
 
 Some of the more complex algorithms outperform the simpler ones, but this is not a consistent trend.
 We can also see that predictive performance is better across all algorithms for the overall data than for the subgroups.
@@ -137,7 +137,7 @@ We could increase model accuracy by training on this data, but instead let's sup
 We can use the four regions of the country defined by the [U.S. Census Bureau](https://www2.census.gov/geo/pdfs/maps-data/maps/reference/us_regdiv.pdf): Northeast, Midwest, South, and West.
 Territories are not classified in a region, so we will group them in a separate class.
 
-![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q4_alg_performance_region.png)
+{% include image.html url="/images/posts/youth-obesity/Q4_alg_performance_region.png" description="" %}
 
 Accuracy has improved with this additional information, but not much.
 Recalling which states had the highest and lowest obesity rates, they weren't spread all across the South and West respectively, but rather specific parts of those regions.
@@ -152,7 +152,7 @@ Let's get a bit more precise with the geography by training on the region subdiv
 * Mountain
 * Pacific
 
-![_config.yml]({{ site.baseurl }}/images/posts/youth-obesity/Q4_alg_performance_division.png)
+{% include image.html url="/images/posts/youth-obesity/Q4_alg_performance_division.png" description="" %}
 
 Now we're getting close to 70% accuracy in predicting our two health outcomes.
 We could tune these algorithms' parameters to try to improve performance further, or even explore more complex algorithms, but we may run into model overtraining or simply diminishing returns of our effort.
