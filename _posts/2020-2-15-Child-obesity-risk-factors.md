@@ -28,6 +28,7 @@ But for a problem as large and intricate as child obesity, an informed approach 
 Two datasets from the CDC are considered in this project:
 * [Nutrition, Physical Activity, and Obesity - Youth Risk Behavior Surveillance System](https://chronicdata.cdc.gov/Nutrition-Physical-Activity-and-Obesity/Nutrition-Physical-Activity-and-Obesity-Youth-Risk/vba9-s8jp) contains information on the prevalence of youth obesity and associated risk factors gathered from the YRBSS
 * [Nutrition, Physical Activity, and Obesity - Policy and Environmental Data](https://data.cdc.gov/Nutrition-Physical-Activity-and-Obesity/Nutrition-Physical-Activity-and-Obesity-Policy-and/k8w5-7ju6) focuses on state policy and environmental factors
+
 These datasets and the Jupyter notebook used for the analysis can be found on [my GitHub page](https://github.com/Nick-G-Horvath/youth-obesity-risk-factors).
 
 # Question 1: How do obesity rates vary over time and by population?
