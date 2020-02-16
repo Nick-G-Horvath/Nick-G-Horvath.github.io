@@ -18,7 +18,6 @@ The [Youth Risk Behavior Surveillance System (YRBSS)](https://www.cdc.gov/health
 The motivation for this project is to understand the state of child obesity in America and what nutritional, behavioral, institutional, and environmental risk factors, if any, can explain the phenomenon.
 
 {% include image.html url="/images/posts/youth-obesity/Choices.jpg" description="Choices..." %}
-<br>
 
 But are nutrition and exercise really the only answer?
 What about genetics?
@@ -188,7 +187,6 @@ The metric has been criticized for its bias across height ranges (taller people 
 For an example of both of these limitations, this man is 6' 5" and weighs 260 pounds, giving him a BMI of 30.8 and making him "obese":
 
 {% include image.html url="/images/posts/youth-obesity/DwayneJohnson.jpg" description="Dwayne Johnson" %}
-<br>
 
 Fourth, much of the data considered here are from self-report surveys, including a student's height and weight, which are used to calculate BMI.
 The [YRBSS methodology documentation](https://www.cdc.gov/mmwr/pdf/rr/rr6201.pdf) mentions a CDC study on the reliability of these two questions in particular, in which students' heights and weights were measured after having taken the questionnaire:
