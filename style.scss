@@ -25,7 +25,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 940px;
+  max-width: 900px;
   padding: 0 10px;
   width: 100%;
 }
@@ -107,7 +107,7 @@ strong, b {
 }
 
 img {
-  max-width: 80%;
+  max-width: 70%;
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -252,9 +252,9 @@ nav {
 
 .post {
   blockquote {
-    margin: 0em 0em;
+    margin: 1.8em 0em;
     border-left: 2px solid $blue;
-    padding: 0em 0em;
+    padding: 0.1em 0em;
     color: $gray;
     font-size: 22px;
     font-style: italic;
