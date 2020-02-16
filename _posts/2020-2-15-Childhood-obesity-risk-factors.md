@@ -183,12 +183,11 @@ For an example of both of these limitations, this man is 6' 5" and weighs 260 po
 {% include image.html url="/images/posts/youth-obesity/DwayneJohnson.jpg" description="Dwayne Johnson" %}
 <br>
 
-Another is that much of the data considered here are from self-report surveys, including a student's height and weight, which are used to calculate BMI.
-The [YRBSS methodology documentation](https://www.cdc.gov/mmwr/pdf/rr/rr6201.pdf) mentions a CDC study on the reliability of these two question in particular, in which students' heights and weights were measured after having taken the questionnaire:
+Fourth, much of the data considered here are from self-report surveys, including a student's height and weight, which are used to calculate BMI.
+The [YRBSS methodology documentation](https://www.cdc.gov/mmwr/pdf/rr/rr6201.pdf) mentions a CDC study on the reliability of these two questions in particular, in which students' heights and weights were measured after having taken the questionnaire:
 
 > *"Self-reported height, weight, and BMI calculated from these values were substantially reliable, but on average, students in the study overreported their height by 2.7 inches and underreported their weight by 3.5 pounds, which indicates that YRBSS probably underestimates the prevalence of overweight and obesity in adolescent populations."*
 
-In addition, the policy data comes from aggregating various state and local level reports under a common standard, for example that the *"state has adopted some form of a Complete Streets policy"*.
-
 Finally, the factors considered here are far from the only ones that could be used to understand and predict rates of youth obesity.
-Notable omissions are the beliefs, education level, and socioeconomic status of one's family and community.
+Notable omissions are the education level, beliefs, and socioeconomic status of one's family and community.
+Nevertheless, it is a good starting point in the quest to understand and remedy the problem of childhood obesity.
