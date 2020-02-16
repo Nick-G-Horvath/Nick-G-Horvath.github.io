@@ -154,13 +154,13 @@ Territories are not classified in a region, so we will group them in a separate 
 Accuracy has improved with this additional information, but not much.
 Recalling which states had the highest and lowest obesity rates, they weren't spread all across the South and West respectively, but rather specific parts of those regions.
 Let's get a bit more precise with the geography by training on the region subdivisions used by the Census Bureau:
-* NewEngland
-* MidAtlantic
-* EastNorthCentral
-* WestNorthCentral
-* SouthAtlantic
-* EastSouthCentral
-* WestSouthCentral
+* New England
+* Mid Atlantic
+* East North Central
+* West North Central
+* South Atlantic
+* East South Central
+* West South Central
 * Mountain
 * Pacific
 
