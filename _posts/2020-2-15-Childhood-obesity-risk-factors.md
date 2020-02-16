@@ -64,7 +64,7 @@ Thus, we can look at obesity rates over time as a function of location.
 There are 51 locations (47 states, 3 territories, and DC) for which we have data in addition to the national average.
 Rather than trying to plot all at once, here are the rates for the top and bottom 5 locations.
 
-{% include image.html url="/images/posts/youth-obesity/Q1_obesity_by_location.png" description="" %}
+{% include image.html url="/images/posts/youth-obesity/Q2_obesity_by_location.png" description="" %}
 
 The same five states were lowest in terms of percent of students obese and those overweight or obese, and they're all clustered together in the Rocky Mountains.
 The locations with the most obese and the most overweight or obese students are almost the same: Guam tops both lists, and Kentucky, Mississippi, Tennessee, and either Arkansas (obesity) or Louisiana (overweightness or obesity) round out the top five.
