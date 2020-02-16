@@ -17,7 +17,7 @@ It is also a condition that is seen increasingly in children.
 The [Youth Risk Behavior Surveillance System (YRBSS)](https://www.cdc.gov/healthyyouth/data/yrbs/overview.htm) was developed in 1990 by the Centers for Disease Control and Prevention (CDC) to study obesity and other health outcomes and associated risk factors among youth in the United States.
 The motivation for this project is to understand the state of child obesity in America and what nutritional, behavioral, institutional, and environmental risk factors, if any, can explain the phenomenon.
 
-{% include image.html url="/images/posts/youth-obesity/Choices.jpg" description="Choices..." %}
+{% include image.html url="/images/posts/youth-obesity/Choices.jpg" description="" %}
 
 But are nutrition and exercise really the only answer?
 What about genetics?
