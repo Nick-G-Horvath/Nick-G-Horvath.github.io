@@ -179,7 +179,7 @@ Third, BMI is not a perfect measure of obesity.
 The metric has been criticized for its bias across height ranges (taller people have higher BMIs relative to body fat percentage) and failure to account for body composition properties, such as a person's degree of musculature.
 For an example of both of these limitations, this man is 6' 5" and weighs 260 pounds, giving him a BMI of 30.8 and making him "obese":
 
-{% include image.html url="/images/posts/youth-obesity/DwayneJohnson.jpg" description='Dwayne "The Rock" Johnson' %}
+{% include image.html url="/images/posts/youth-obesity/DwayneJohnson.jpg" description="Dwayne Johnson" %}
 
 Another is that much of the data considered here are from self-report surveys, including a student's height and weight, which are used to calculate BMI.
 The [YRBSS methodology documentation](https://www.cdc.gov/mmwr/pdf/rr/rr6201.pdf) mentions a CDC study on the reliability of these two question in particular, in which students' heights and weights were measured after having taken the questionnaire:
