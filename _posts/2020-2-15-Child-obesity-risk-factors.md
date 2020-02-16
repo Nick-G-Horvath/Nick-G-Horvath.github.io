@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Childhood obesity risk factors
-subtitle: What matters most in the fight against American child obesity?
+title: Child obesity risk factors
+subtitle: What matters most in the fight against American childhood obesity?
 ---
 
 {% include image.html url="/images/posts/youth-obesity/AppleScale.jpg" description="" %}
