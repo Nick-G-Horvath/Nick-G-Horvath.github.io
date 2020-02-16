@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 24px/1.4 $helvetica;
   color: $darkGray;
 }
 
@@ -227,7 +227,7 @@ nav {
     color: $darkGray;
     text-align: right;
     font-weight: 300;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
@@ -241,7 +241,7 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
+  padding-bottom: 3em;
   border-bottom: 1px solid $lightGray;
 }
 
@@ -253,7 +253,7 @@ nav {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $gray;
+    border-left: 2px solid $blue;
     padding: 0.1em 1em;
     color: $gray;
     font-size: 22px;
