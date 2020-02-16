@@ -160,12 +160,6 @@ It's important to remember that the quality of the data is more important than t
 It seems that while the associated risk factors we identified are somewhat correlated with obesity rates, they alone aren't sufficient for predicting them with high accuracy.
 
 # Summary
-Just by considering the associated risk factors (not the year, state, grade, gender, or race/ethnicity), we can achieve a little above 60% accuracy.
-By supplying the geographic region (but still not the exact state) we get close to 70%.
-
-In data science it's important to remember that the quality of the data is more important than the choice of algorithm.
-Linear regression is often a good place to start beacuse it lets us know if a more complex model is even necessary.
-
 In examining this data we have seen that the percents of high-school students in the United States that are obese and those that are overweight or obese have increased from 2001 to 2017, are higher in certain racial/ethnic groups, and are higher in males than females, although females are catching up.
 We have also learned that geography is correlated with  obesity rates, with five states in the Rocky Mountains having the lowest rates, while Guam and five states along the Mississippi have the highest.
 Students in the least obese states watch less TV, eat more vegetables, and drink less soda, while those in the most obese states do the opposite.
