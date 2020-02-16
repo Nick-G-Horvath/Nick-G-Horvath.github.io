@@ -166,15 +166,20 @@ In data science it's important to remember that the quality of the data is more 
 Linear regression is often a good place to start beacuse it lets us know if a more complex model is even necessary.
 
 In examining this data we have seen that the percents of high-school students in the United States that are obese and those that are overweight or obese have increased from 2001 to 2017, are higher in certain racial/ethnic groups, and are higher in males than females, although females are catching up.
-We have also learned that five states in the Rocky Mountains have the lowest rates of these high-BMI categories, and in those states students tend to watch less TV, eat more vegetables, and drink less soda than the national average.
-Those states also have more farmers markets per capita and more people living within half a mile of a park than the national average.
-Five states along the Mississippi River and Guam have the highest rates of these high-BMI categories, and students in those locations tend to watch more TV, eat fewer fruits and vegetables, and drink more soda than the national average.
-Those locations also have fewer farmers markets per capita and fewer people living within half a mile of a park than the national average.
-Similar results are seen in the single-factor correlation coefficients.
-We have also shown that by providing some level of information on geographic location, the test set accuracy of a model can be improved.
+We have also learned that geography is correlated with  obesity rates, with five states in the Rocky Mountains having the lowest rates, while Guam and five states along the Mississippi have the highest.
+Students in the least obese states watch less TV, eat more vegetables, and drink less soda, while those in the most obese states do the opposite.
+We have also built models to predict obesity rates, with accuracy as high as 70% when geographic information is provided.
 
-One important caveat is that BMI is not the same as body fat percentage, nor is it perfectly correlated.
-The metric has been criticized for its bias across height ranges (being underpredicted for shorter individuals and overpredicted for taller) and failure to account for body composition properties, such as a person's degree of musculature.
+This analysis has uncovered some interesting relationships, but there are some caveats that we should keep in mind.
+First, correlation is not causation.
+We cannot say that eating more vegetables, drinking less soda, or anything else will lower the obesity rates in a state, territory, or country, at least not from this data.
+Second, these obesity rates are statewide; we can't show correlation, yet alone causation, between an individual's behaviors and environment and their BMI.
+
+Third, BMI is not a perfect measure of obesity.
+The metric has been criticized for its bias across height ranges (taller people have higher BMIs relative to body fat percentage) and failure to account for body composition properties, such as a person's degree of musculature.
+For an example of both of these limitations, this man is 6' 5" and weighs 260 pounds, giving him a BMI of 30.8 and making him "obese":
+
+{% include image.html url="/images/posts/youth-obesity/DwayneJohnson.jpg" description=" " %}
 
 Another is that much of the data considered here are from self-report surveys, including a student's height and weight, which are used to calculate BMI.
 The [YRBSS methodology documentation](https://www.cdc.gov/mmwr/pdf/rr/rr6201.pdf) mentions a CDC study on the reliability of these two question in particular, in which students' heights and weights were measured after having taken the questionnaire:
