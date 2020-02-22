@@ -157,7 +157,7 @@ Finally, the race/ethnicity breakdown falls in between these two cases.
 The nationwide trends were not totally jumbled, but not entirely separable either.
 Consequently, model performace was about the same as the overall case.
 
-These models were not allowed to predict based on year, state, grade, gender, or race/ethnicity, but 75% and 69% accuracy are still not quite ideal for a useful predictive model.
+75% and 69% accuracy are not quite ideal for a useful predictive model.
 We could increase model accuracy by training on this data, but instead let's supply more general information: the geographic region of the country.
 We can use the four regions of the country defined by the [U.S. Census Bureau](https://www2.census.gov/geo/pdfs/maps-data/maps/reference/us_regdiv.pdf): Northeast, Midwest, South, and West.
 Territories are not classified in a region, so we will group them in a separate class.
