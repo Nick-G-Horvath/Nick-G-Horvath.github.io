@@ -142,32 +142,29 @@ Support vector regression (SVR) allows for non-linear relationships, and the fin
 {% include image.html url="/images/posts/youth-obesity/Q4_alg_performance.png" description="" %}
 
 Some of the more complex algorithms outperform the simpler ones, but this is not a consistent trend.
-We can also see that predictive performance is better across all algorithms for the overall data than for the subgroups.
-This may be because there are simply more data samples, which allow for more training, more learning, and thus higher accuracy when generalizing to the test samples.
+We can also see that predictive performance varies based on what data are given to the algorithms.
+When training on data grouped by grade, model performance suffers.
+This makes sense if we think about the trends in obesity rates over time.
+Comparing the overall nationwide trends versus those divided by school grade, no meaningful information was added by considering grade.
+It only served to increase the noise in the data (and reduce the number of training/testing samples, becuase fewer data of this type were in the dataset).
 
-These models were not allowed to predict based on year, state, grade, gender, or race/ethnicity, but 61% and 63% accuracy are still not really what we want for a useful predictive model.
+When training on gender, accuracy improves.
+Thinking back to the nationwide trends again, the gender difference was very clear.
+While the variability in the obesity rates by gender was greater than simply looking at the overall data, it wasn't noise; we could easily tell which group was which.
+Thus, our models gained enough useful information from this factor to outweigh the increased variation and fewer training samples.
+
+Finally, the race/ethnicity breakdown falls in between these two cases.
+The nationwide trends were not totally jumbled, but not entirely separable either.
+Consequently, model performace was about the same as the overall case.
+
+These models were not allowed to predict based on year, state, grade, gender, or race/ethnicity, but 75% and 69% accuracy are still not quite ideal for a useful predictive model.
 We could increase model accuracy by training on this data, but instead let's supply more general information: the geographic region of the country.
 We can use the four regions of the country defined by the [U.S. Census Bureau](https://www2.census.gov/geo/pdfs/maps-data/maps/reference/us_regdiv.pdf): Northeast, Midwest, South, and West.
 Territories are not classified in a region, so we will group them in a separate class.
 
 {% include image.html url="/images/posts/youth-obesity/Q4_alg_performance_region.png" description="" %}
 
-Accuracy has improved with this additional information, but not much.
-Recalling which states had the highest and lowest obesity rates, they weren't spread all across the South and West respectively, but rather specific parts of those regions.
-Let's get a bit more precise with the geography by training on the region subdivisions used by the Census Bureau:
-* New England
-* Mid Atlantic
-* East North Central
-* West North Central
-* South Atlantic
-* East South Central
-* West South Central
-* Mountain
-* Pacific
-
-{% include image.html url="/images/posts/youth-obesity/Q4_alg_performance_division.png" description="" %}
-
-Now we're getting close to 70% accuracy in predicting our two health outcomes.
+Now we're getting close to 80% accuracy in predicting our two health outcomes.
 We could tune these algorithms' parameters to try to improve performance further, or even explore more complex algorithms, but we may run into model overtraining or simply diminishing returns of our effort.
 It's important to remember that the quality of the data is more important than the choice of algorithm.
 It seems that while the associated risk factors we identified are somewhat correlated with obesity rates, they alone aren't sufficient for predicting them with high accuracy.
@@ -176,7 +173,7 @@ It seems that while the associated risk factors we identified are somewhat corre
 In examining this data we have seen that the percents of high-school students in the United States that are obese and those that are overweight or obese have increased from 2001 to 2017, are higher in certain racial/ethnic groups, and are higher in males than females, although females are catching up.
 We have also learned that geography is correlated with  obesity rates, with five states in the Rocky Mountains having the lowest rates, while Guam and five states along the Mississippi have the highest.
 Students in the least obese states watch less TV, eat more vegetables, and drink less soda, while those in the most obese states do the opposite.
-We have also built models to predict obesity rates, with accuracy as high as 70% when geographic information is provided.
+We have also built models to predict obesity rates, with accuracy as high as 78% when geographic information is provided.
 
 This analysis has uncovered some interesting relationships, but there are some caveats that we should keep in mind.
 First, correlation is not causation.
