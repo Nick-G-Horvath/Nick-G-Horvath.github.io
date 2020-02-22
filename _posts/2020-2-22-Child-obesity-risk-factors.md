@@ -164,7 +164,7 @@ Territories are not classified in a region, so we will group them in a separate 
 
 {% include image.html url="/images/posts/youth-obesity/Q4_alg_performance_region.png" description="" %}
 
-Now we're getting close to 80% accuracy in predicting our two health outcomes.
+Now we're getting close to 80% accuracy in the best of cases.
 We could tune these algorithms' parameters to try to improve performance further, or even explore more complex algorithms, but we may run into model overtraining or simply diminishing returns of our effort.
 It's important to remember that the quality of the data is more important than the choice of algorithm.
 It seems that while the associated risk factors we identified are somewhat correlated with obesity rates, they alone aren't sufficient for predicting them with high accuracy.
